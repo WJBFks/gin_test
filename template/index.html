@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang='zh'>
+
+<head>
+    <meta charset="utf-8" />
+    <title>首页</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./static/style.css" />
+
+<body>
+    <div id="left">
+        <div class="box top">
+            <input type="text" placeholder="输入并搜索" />
+        </div>
+        <div class="group">
+            <div class="title">main</div>
+            <div class="item selected">首页</div>
+            <a href="intro.html">
+                <div class="item">简介</div>
+            </a>
+            <a href="start.html">
+                <div class="item">新手上路</div>
+            </a>
+        </div>
+        <div class="group">
+            <div class="title">基本工作流程</div>
+            <div class="item">资源工作流程</div>
+            <div class="item">场景制作工作流程</div>
+            <div class="item">脚本开发指南</div>
+            <div class="item">一键接入第三方服务</div>
+            <div class="item">发布跨平台游戏</div>
+        </div>
+        <div class="group">
+            <div class="title">子系统介绍</div>
+            <div class="item">图像和渲染</div>
+            <div class="item">UI 系统</div>
+            <div class="item">动画系统</div>
+            <div class="item">音乐和音效</div>
+            <div class="item">物理与碰撞系统</div>
+            <div class="item">3D 系统</div>
+            <div class="item">3D 物理与碰撞系统</div>
+            <div class="item">Asset Manager 资源管理</div>
+        </div>
+        <div class="group">
+            <div class="title">进阶使用</div>
+            <div class="item">扩展编辑器</div>
+            <div class="item">进阶主题</div>
+            <div class="item">SDK 集成</div>
+        </div>
+        <div class="box btm">
+            <div class="group">
+                <div class="item footer">本书使用 GitBook 开发</div>
+            </div>
+        </div>
+    </div>
+    <div id="right">
+        <div id="nav">
+            <div id="nav-left">
+                <a href="https://www.cocos.com/">
+                    <img src="https://forum.cocos.org/images/logo.png" />
+                </a>
+                <div class="item">English</div>
+                <div class="item book">Cocos Creator</div>
+                <div class="item book">Cocos Creator 3D</div>
+                <div class="item book">Cocos2d-x</div>
+            </div>
+            <div id="nav-right">
+                <div id="version">
+                    <span id="tip">Version:</span>
+                    <span id="detail">2.4</span>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div id="side-bar">
+                <a href="#intro">
+                    <div class="item">说明</div>
+                </a>
+                <a href="#dynamic">
+                    <div class="item">动态元素</div>
+                </a>
+                <a href="#static">
+                    <div class="item">静态资源</div>
+                </a>
+                <a href="#arthur">
+                    <div class="item">作者</div>
+                </a>
+            </div>
+            <div id="article">
+                <h1 id="intro">说明</h1>
+                <p>网页参考自<a href="https://docs.cocos.com/creator/manual/zh/">Cocos Creator v2.4 用户手册</a> ，参考了其布局和文本，所有代码均为手写
+                </p>
+                <h1 id="dynamic">动态元素</h1>
+                <ol>
+                    <li>本项目共包括<span style="color: red;font-weight: 600;">三个html文件</span>， 点击左部栏“
+                        <a href="index.html">首页</a>”、“<a href="intro.html">简介</a>”、 “
+                        <a href="start.html">新手上路</a>”可跳转</li>
+                    <li>左部栏有<span style="color: #66ccff;">hover</span>和<span style="color: #66ccff;">selected</span>效果</li>
+                    <li>右侧栏有<span style="color: #66ccff;">hover</span>效果和<span style="color: #66ccff;">页面内跳转</span>点击效果</li>
+                    <li>右侧栏下方有“<span style="color: #66ccff;">置顶</span>”按钮</li>
+                    <li>本项目还有其他大量<span style="color: #66ccff;">hover</span>效果</li>
+                    <li><span style="color: #66ccff;">响应式设计</span>，当屏幕宽小于等于1200时，隐藏右侧栏</li>
+                    <li><span style="color: #66ccff;">响应式设计</span>，当屏幕宽小于等于900时，隐藏左部栏</li>
+                </ol>
+                <h1 id="static">静态资源</h1>
+                <ul>
+                    <li>页面：index.html</li>
+                    <li>页面：intro.html</li>
+                    <li>页面：start.html</li>
+                    <li>样式：style.css</li>
+                    <li>图片：<a target="_blank" href="https://forum.cocos.org/images/logo.png">https://forum.cocos.org/images/logo.png</a>
+                    </li>
+                    <li>图片：<a target="_blank" href="https://cdn.jsdelivr.net/gh/WJBFks/Assignment_1@master/img/before.png">https://cdn.jsdelivr.net/gh/WJBFks/Assignment_1@master/img/before.png</a>
+                    </li>
+                    <li>图片：<a target="_blank" href="https://cdn.jsdelivr.net/gh/WJBFks/Assignment_1@master/img/book.png">https://cdn.jsdelivr.net/gh/WJBFks/Assignment_1@master/img/book.png</a>
+                    </li>
+                    <li>图片：<a target="_blank" href="https://cdn.jsdelivr.net/gh/WJBFks/Assignment_1@master/img/top.png">https://cdn.jsdelivr.net/gh/WJBFks/Assignment_1@master/img/top.png</a>
+                    </li>
+                </ul>
+                <h1 id="arthur">作者</h1>
+                <ul>
+                    <li>计算机科学与工程学院</li>
+                    <li>计算机科学与技术1904</li>
+                    <li>王家兴</li>
+                    <li>20194695</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        By 王家兴 20194695 （页面参考自<a href="https://docs.cocos.com/" target="_blank">Cocos Creator v2.4 用户手册</a> ）
+        <a href="https://github.com/WJBFks/Assignment_1/" target="_blank">GitHub</a>
+    </div>
+    <a href="#nav-left">
+        <div id="to-top" type="button">
+            <img src="https://cdn.jsdelivr.net/gh/WJBFks/Assignment_1@master/img/top.png" />
+        </div>
+    </a>
+</body>
+
+</html>

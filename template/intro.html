@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang='zh'>
+
+<head>
+    <meta charset="utf-8" />
+    <title>简介</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./static/style.css" />
+
+<body>
+    <div id="left">
+        <div class="box top">
+            <input type="text" placeholder="输入并搜索" />
+        </div>
+        <div class="group">
+            <div class="title">main</div>
+            <a href="index.html">
+                <div class="item">首页</div>
+            </a>
+            <div class="item selected">简介</div>
+            <a href="start.html">
+                <div class="item">新手上路</div>
+            </a>
+        </div>
+        <div class="group">
+            <div class="title">基本工作流程</div>
+            <div class="item">资源工作流程</div>
+            <div class="item">场景制作工作流程</div>
+            <div class="item">脚本开发指南</div>
+            <div class="item">一键接入第三方服务</div>
+            <div class="item">发布跨平台游戏</div>
+        </div>
+        <div class="group">
+            <div class="title">子系统介绍</div>
+            <div class="item">图像和渲染</div>
+            <div class="item">UI 系统</div>
+            <div class="item">动画系统</div>
+            <div class="item">音乐和音效</div>
+            <div class="item">物理与碰撞系统</div>
+            <div class="item">3D 系统</div>
+            <div class="item">3D 物理与碰撞系统</div>
+            <div class="item">Asset Manager 资源管理</div>
+        </div>
+        <div class="group">
+            <div class="title">进阶使用</div>
+            <div class="item">扩展编辑器</div>
+            <div class="item">进阶主题</div>
+            <div class="item">SDK 集成</div>
+        </div>
+        <div class="box btm">
+            <div class="group">
+                <div class="item footer">本书使用 GitBook 开发</div>
+            </div>
+        </div>
+    </div>
+    <div id="right">
+        <div id="nav">
+            <div id="nav-left">
+                <a href="https://www.cocos.com/">
+                    <img src="https://forum.cocos.org/images/logo.png" />
+                </a>
+                <div class="item">English</div>
+                <div class="item book">Cocos Creator</div>
+                <div class="item book">Cocos Creator 3D</div>
+                <div class="item book">Cocos2d-x</div>
+            </div>
+            <div id="nav-right">
+                <div id="version">
+                    <span id="tip">Version:</span>
+                    <span id="detail">2.4</span>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div id="side-bar">
+                <a href="#yhsc">
+                    <div class="item">Cocos Creator v2.4用户指南</div>
+                </a>
+                <a href="#tbtj">
+                    <div class="item">特别推荐</div>
+                </a>
+                <a href="#zdd">
+                    <div class="item">总导读</div>
+                </a>
+                <a href="#spjc">
+                    <div class="item">视频教程</div>
+                </a>
+                <a href="#ys">
+                    <div class="item">演示和范例项目</div>
+                </a>
+            </div>
+            <div id="article">
+                <h1 id="yhsc">Cocos Creator v2.4 用户手册</h1>
+                <p>欢迎使用 Cocos Creator 用户手册！本手册包括详尽的使用说明、面向不同职能用户的工作流程和 step by step 的新手教程。 能够帮您快速掌握使用 Cocos Creator 开发跨平台游戏的方法。</p>
+                <p class="tip"><span style="font-weight: 600;">注意</span>：请在右上角根据您使用的 Cocos Creator 版本选择相应的手册版本。</p>
+                <h1 id="tbtj">特别推荐</h1>
+                <ul>
+                    <li>从 v2.4.2 开始，Cocos Creator 支持发布到 字节跳动小游戏。</li>
+                    <li>从 v2.4.1 开始，Cocos Creator 支持发布到 HUAWEI AppGallery Connect 和 连尚小游戏。</li>
+                    <li>从 v2.4.0 开始，Cocos Creator 重写了资源管理模块，兼容了大部分原有的 API。除个别项目使用了无法兼容的特殊用法的 API 必须手动升级外，大部分项目都可以照常运行。建议开发者都升级到最新的资源管理模块。详情请查阅 v2.4 资源管理模块升级指南 和 v2.4 资源分包升级指南。</li>
+                    <li>从 v2.4.0 开始，Cocos Creator 正式支持了 Asset Bundle，提供了更强大的远程资源加载能力、子项目动态加载能力，并进一步减小了首包的大小。详情请查阅 Asset Bundle。</li>
+                    <li>从 v2.4.0 开始，编辑器的构建流程将以 Asset Bundle 为单元。如果开发者在 v2.4 之前有在编辑器中使用插件扩展了构建流程，则需要对部分 API 的使用进行升级。详情请查阅 定制构建流程升级指南。</li>
+                    <li>从 v2.3.4 开始，Cocos Creator 新增了对 腾讯云服务 的支持。</li>
+                    <li>从 v2.3.0 开始，Cocos Creator 新增了对 3D 物理与碰撞系统、3D 粒子 的支持，同时 材质系统 也升级到了正式版。</li>
+                    <li>从 v2.3.0 开始，Cocos Creator 支持发布到 趣头条小游戏。</li>
+                    <li>Spine 换装指南。</li>
+                    <li>DragonBones 换装指南。</li>
+                    <li>从 v2.1.4 开始，Cocos Creator 支持发布到 支付宝小游戏。</li>
+                    <li>从 v2.1 开始，Cocos Creator 引入了 3D 的支持。详情请查阅 3D 节点。</li>
+                    <li>从 v2.0.10 开始，Cocos Creator 支持发布到 小米快游戏 及 Cocos Play。</li>
+                    <li>从 v2.0.9 开始，Cocos Creator 支持发布到 百度小游戏。</li>
+                    <li>从 v2.0.7 开始，Cocos Creator 支持发布到 华为快游戏。</li>
+                    <li>从 v2.0.5 开始，Cocos Creator 支持发布到 OPPO 小游戏 及 vivo 小游戏。</li>
+                    <li>从 v2.0.4 开始，Cocos Creator 支持发布到 Google Play Instant。</li>
+                    <li>v2.0 升级指南</li>
+                    <li>从 v1.10 开始，Cocos Creator 对底层资源类型进行了重构，绝大多数项目不受影响，但有些项目可能会收到一些警告，详情请查阅 v1.10 资源升级指南。</li>
+                </ul>
+                <h1 id="zdd">总导读</h1>
+                <ul>
+                    <li><a href="">Cocos Creator 入门</a></li>
+                    <li><a href="">资源工作流程</a></li>
+                    <li><a href="">场景制作工作流程</a></li>
+                    <li><a href="">脚本开发指南</a></li>
+                    <li><a href="">发布跨平台游戏</a></li>
+                    <li><a href="">图像和渲染</a></li>
+                    <li><a href="">UI 系统</a></li>
+                    <li><a href="">动画系统</a></li>
+                    <li><a href="">音乐和音效</a></li>
+                    <li><a href="">2D 物理和碰撞系统</a></li>
+                    <li><a href="">3D 系统</a></li>
+                    <li><a href="">3D 物理与碰撞系统</a></li>
+                    <li><a href="">扩展编辑器</a></li>
+                    <li><a href="">进阶主题</a></li>
+                    <li><a href="">SDK 集成</a></li>
+                </ul>
+                <h1 id="spjc">视频教程</h1>
+                <p>前往视频教程页面</p>
+                <h1 id="ys">演示和范例项目</h1>
+                <ul>
+                    <li><span style="font-weight: 600;">范例集合</span>（GitHub | Gitee）：从基本的组件到交互输入，这个项目里包括了 case by case 的功能点用法介绍。</li>
+                    <li><span style="font-weight: 600;">Star Catcher</span>（GitHub | Gitee）：也就是 快速上手 文档里分步讲解制作的游戏。
+                    </li>
+                    <li><span style="font-weight: 600;">腾讯合作开发的 21 点游戏</span>（GitHub | Gitee)</li>
+                    <li><span style="font-weight: 600;">UI 展示 Demo</span>（GitHub | Gitee)</li>
+                    <li><span style="font-weight: 600;">暗黑斩 Cocos Creator 复刻版</span>（GitHub | Gitee）：由 Veewo Games 独家授权原版暗黑斩资源素材，在 Cocos Creator 里复刻的演示项目。</li>
+                </ul>
+                <p class="tip"><span style="font-weight: 600;">注意</span>：这些项目会不定期跟随版本进行更新。它们在 GitHub 上的默认分支是 master，对应的一般是最新的 Cocos Creator 版本。如果仍在使用旧版本的 Cocos Creator，这些项目有可能会打不开，可尝试切换到和旧版本相同命名的分支。</p>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        By 王家兴 20194695 （页面参考自<a href="https://docs.cocos.com/" target="_blank">Cocos Creator v2.4 用户手册</a> ）
+        <a href="https://github.com/WJBFks/Assignment_1/" target="_blank">GitHub</a>
+    </div>
+    <a href="#nav-left">
+        <div id="to-top" type="button">
+            <img src="https://cdn.jsdelivr.net/gh/WJBFks/Assignment_1@master/img/top.png" />
+        </div>
+    </a>
+</body>
+
+</html>
